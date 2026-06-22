@@ -1,124 +1,162 @@
-# ⚽ Top Eleven Market Analyzer
+# Top Eleven Market Analyzer
 
-Projeto desenvolvido para análise de transferências de jogadores do Top Eleven, utilizando Power BI e Excel para identificar oportunidades de compra em leilões e estimar o valor esperado dos atletas.
+![Dashboard](dashboard.jpeg)
 
----
+## Overview
 
-## 📋 Sobre o Projeto
+Top Eleven Market Analyzer is a data-driven solution developed to evaluate player market values and identify auction opportunities in the Top Eleven football management game.
 
-O objetivo deste projeto é auxiliar jogadores do Top Eleven na tomada de decisões durante os leilões, fornecendo uma análise baseada em:
-
-- Idade do jogador
-- Nível da conta
-- GRL (Overall)
-- Valor de mercado
-- Score de oportunidade
-- Preço justo estimado
-
-A ferramenta permite identificar rapidamente se um jogador está sendo negociado abaixo ou acima do seu valor esperado.
+The project combines Power BI dashboards and an Excel-based simulator to estimate fair player prices, compare market values, and support data-driven transfer decisions.
 
 ---
 
-## 🚀 Funcionalidades
+## Project Goals
 
-### Dashboard Power BI
+This project was created to:
 
-- Análise de jogadores por idade
-- Comparação entre GRL e valor de mercado
-- Identificação de tendências de preço
-- Visualizações interativas
-- Filtros dinâmicos
-
-### Simulador Excel
-
-- Cálculo automático do preço esperado
-- Avaliação de oportunidades de mercado
-- Sistema de Score
-- Classificação automática das negociações
+- Analyze player market behavior.
+- Estimate fair market values.
+- Identify undervalued and overvalued players.
+- Support auction decision-making.
+- Apply Business Intelligence concepts in a real-world scenario.
 
 ---
 
-## 📁 Arquivos do Projeto
+## Power BI Dashboard
 
-| Arquivo | Descrição |
-|----------|------------|
-| TopElevenMarketAnalyzer.pbix | Dashboard Power BI |
-| Base_Dados.xlsx | Simulador de leilão em Excel |
+The dashboard provides interactive analysis of player valuation patterns based on:
+
+- Player Age
+- Overall Rating (GRL)
+- Market Value
+- Account Level
+- Market Trends
+
+### Key Features
+
+Interactive visualizations
+Dynamic filtering
+Market value analysis
+Player comparison
+Performance indicators
+Data-driven insights
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Excel Auction Simulator
+
+The Excel simulator allows users to evaluate potential auction purchases using a scoring methodology developed from historical player data.
+
+### Inputs
+
+- Account Level
+- Player GRL
+- Market Value
+- Player Age
+
+### Outputs
+
+- Base Account Level
+- Reference GRL
+- Fair Price Estimation
+- Opportunity Score
+- Purchase Recommendation
+
+### Example Classifications
+
+| Score | Recommendation |
+|---------|----------------|
+| Above 100% | Excellent Opportunity |
+| 90% - 100% | Good Purchase |
+| 80% - 90% | Evaluate Carefully |
+| Below 80% | Avoid |
+
+---
+
+## Technologies Used
 
 - Microsoft Power BI
 - Microsoft Excel
 - DAX
 - Power Query
-- Modelagem de Dados
+- Data Modeling
+- Data Visualization
 
 ---
 
-## 📊 Metodologia
+## Repository Structure
 
-Os dados foram coletados e analisados para identificar padrões de valorização dos jogadores considerando:
-
-- Faixa etária (18 a 21 anos)
-- Evolução do GRL
-- Nível da conta
-- Valor de mercado
-
-Com base nesses fatores, foi desenvolvido um algoritmo de precificação capaz de estimar o valor esperado de um jogador e gerar um Score de oportunidade.
+```text
+.
+├── TopElevenMarketAnalyzer.pbix
+├── Base_Dados.xlsx
+├── dashboard.jpeg
+├── excel.jpeg
+└── README.md
+```
 
 ---
 
-## 📸 Demonstrações
+## Screenshots
 
-### Dashboard Power BI
+### Power BI Dashboard
 
 ![Dashboard](dashboard.jpeg)
 
-### Simulador Excel
+### Excel Simulator
 
-![Simulador Excel](excel.jpeg)
-
----
-
-## 🎯 Objetivos
-
-- Aplicar conceitos de Business Intelligence
-- Desenvolver análises orientadas por dados
-- Criar uma ferramenta prática para jogadores do Top Eleven
-- Demonstrar habilidades em Power BI e Excel
+![Excel Simulator](excel.jpeg)
 
 ---
 
-## 👨‍💻 Autor
+## Methodology
 
-**Thallyson Aparecido de Souza**
+The valuation model was developed through market data analysis considering:
 
-Engenheiro Eletrônico e de Telecomunicações
+- Player age groups (18–21 years)
+- Overall Rating (GRL)
+- Market value behavior
+- Account level differences
 
-GitHub: https://github.com/thallysonsouza
-
----
-
-## ⭐ Como Utilizar
-
-1. Baixe o arquivo Excel.
-2. Informe:
-   - Nível da Conta
-   - GRL do Jogador
-   - Valor de Mercado
-   - Idade
-3. Analise os resultados:
-   - Preço Justo
-   - Score
-   - Classificação
-4. Tome sua decisão de compra.
+The resulting model estimates a player's fair value and calculates an opportunity score to assist decision-making during auctions.
 
 ---
 
-## 📌 Status do Projeto
+## Business Value
 
-✅ Concluído
+This project demonstrates practical skills in:
 
-Versão: 1.0
+- Business Intelligence
+- Data Analysis
+- Dashboard Development
+- Excel Automation
+- KPI Design
+- Decision Support Systems
+
+---
+
+## Author
+
+### Thallyson Aparecido de Souza
+
+Electronic and Telecommunications Engineer
+
+Skills:
+
+- Power BI
+- DAX
+- Power Query
+- Excel
+- Data Analysis
+- Business Intelligence
+
+GitHub:
+https://github.com/thallysonsouza
+
+---
+
+## 📌 Status
+
+✅ Completed
+
+Version 1.0
