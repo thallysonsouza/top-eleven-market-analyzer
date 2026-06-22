@@ -1,5 +1,8 @@
 # Top Eleven Market Analyzer
 
+- Projeto desenvolvido em português.
+- Documentation available in English.
+
 ![Dashboard](dashboard.jpeg)
 
 ## Overview
