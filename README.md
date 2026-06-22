@@ -74,11 +74,11 @@ Com base nesses fatores, foi desenvolvido um algoritmo de precificação capaz d
 
 ### Dashboard Power BI
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.jpeg)
 
 ### Simulador Excel
 
-![Excel](dashboard)
+![Simulador Excel](excel.jpeg)
 
 ---
 
